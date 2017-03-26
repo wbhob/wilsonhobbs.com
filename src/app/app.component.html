@@ -1,0 +1,61 @@
+<div background>
+  <section class="full-screen rel">
+    <div class="v-a-m">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12  p-y-50">
+            <h1 large light>Hi, I'm <span bold>Wilson Hobbs</span>.</h1>
+            <h4 light medium>I am a maker of software things from Atlanta.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="full-screen rel">
+    <div class="v-a-m">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12  p-y-50" center>
+            <h1 large light>I've done work for <span bold><a href="http://www.hoboride.com/">Hobo Technologies</a></span> and my startup,
+              <span bold><a href="https://www.getcanal.com/">Canal</a></span>.</h1>
+            <h4 light medium>And I made them with a dab of awesome.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="full-screen rel">
+    <div class="v-a-m">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12  p-y-50">
+            <h1 large light>Let me tell you 'bout my <span bold>skills</span>.</h1>
+            <h4 light medium>
+              <ul>
+                <li>HTML, CSS, JavaScript, jQuery</li>
+                <li>Angular, Ionic Framework</li>
+                <li>Node.JS, Express, MongoDB</li>
+                <li>Git Workflow</li>
+              </ul>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="full-screen">
+    <div class="container p-y-50">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 large light>Some of the <span bold>projects</span> I've done.</h1>
+          <h4 light medium>Click the links to see what I did.</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6" *ngFor="let card of cards">
+          <app-card [content]="card"></app-card>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
