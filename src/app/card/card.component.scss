@@ -1,0 +1,38 @@
+@import '../../styles';
+div {
+    padding: 30px;
+    background-color: white !important;
+}
+
+h5 {
+    text-align: center;
+    a {
+        @include colorGradients();
+        font-size: 26px;
+        margin: 0;
+        -moz-text-decoration-color: $primary;
+        /* Code for Firefox */
+        text-decoration-color: $primary;
+    }
+}
+
+button {
+    @include smallBgGradients(45deg);
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    transition: width 1s;
+    -moz-transition: width 1s;
+    -webkit-transition: width 1s;
+    &:hover {
+        width: 100%;
+    }
+    &:active {
+        @include smallBgGradients(45deg, 10%);
+    }
+}
