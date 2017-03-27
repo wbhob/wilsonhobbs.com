@@ -21,6 +21,7 @@
       "styles": [
         "normalize.css",
         "bootstrap.min.css",
+        "fa/css/font-awesome.min.css",
         "styles.scss"
       ],
       "scripts": [],

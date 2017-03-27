@@ -27,7 +27,7 @@ $primary: #0073E6;
     font-family: 'Inconsolata', monospace;
     font-size: 1.5rem;
     [large] {
-        font-size: 40px !important;
+        font-size: 40px;
         & span,
         & a,
         & * {
@@ -36,7 +36,7 @@ $primary: #0073E6;
         }
     }
     [medium] {
-        font-size: 32px !important;
+        font-size: 32px;
         & span,
         & a,
         & * {
@@ -50,6 +50,7 @@ $primary: #0073E6;
             margin: 0;
             li {
                 padding-left: 24px;
+                padding-bottom: 16px;
             }
             li:before {
                 content: "-";
@@ -78,6 +79,8 @@ $primary: #0073E6;
 // }
 .full-screen {
     min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .rel {
@@ -99,6 +102,15 @@ $primary: #0073E6;
     width: 100vw;
 }
 
+[no-list] {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+        padding-bottom: 16px;
+    }
+}
+
 [center] {
     text-align: center;
 }
@@ -113,9 +125,9 @@ $primary: #0073E6;
 
 @media screen and (max-width:640px) {
     [large] {
-        font-size: 40px !important;
+        font-size: 34px !important;
     }
     [medium] {
-        font-size: 32px !important;
+        font-size: 22px !important;
     }
 }

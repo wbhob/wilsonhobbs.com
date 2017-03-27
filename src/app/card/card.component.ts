@@ -19,8 +19,7 @@ export class CardComponent {
   set content(card: CardInput) {
     this._card.title = (card.title && card.title.trim()) || '<no name set>';
     this._card.content = (card.content && card.content.trim()) || '<no name set>';
-    this._card.link = (card.link && card.link.trim()) || '<no name set>';
-    console.log(card);
+    this._card.link = (card.link && card.link.trim()) || '';
   }
 
   get content(): CardInput { return this._card; }

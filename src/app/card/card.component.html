@@ -1,12 +1,17 @@
 <div>
-  <h5>
-    <a [href]="content.link">
+  <h5 *ngIf="content.link; else noLink">
+    <a target="_new" [href]="content.link">
       {{content.title}}
-  </a>
+    </a>
   </h5>
+  <ng-template #noLink>
+    <h5>
+      {{content.title}}
+    </h5>
+  </ng-template>
   <p>{{content.content}}</p>
-  <a [href]="content.link">
-    <button class="gradient-button">
+  <a target="_new" [href]=" content.link " *ngIf="content.link ">
+    <button class="gradient-button ">
     See More
     </button>
   </a>

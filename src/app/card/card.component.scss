@@ -2,17 +2,22 @@
 div {
     padding: 30px;
     background-color: white !important;
+    margin-bottom: 30px;
 }
 
 h5 {
     text-align: center;
+    font-size: 26px;
+    color: $primary;
     a {
-        @include colorGradients();
-        font-size: 26px;
         margin: 0;
-        -moz-text-decoration-color: $primary;
-        /* Code for Firefox */
+        font-size: 26px;
+        color: $primary;
         text-decoration-color: $primary;
+        -moz-text-decoration-color: $primary;
+        -webkit-text-decoration-color: $primary;
+        -o-text-decoration-color: $primary;
+        /* Code for Firefox */
     }
 }
 
@@ -25,13 +30,12 @@ button {
     padding: 15px;
     border-radius: 4px;
     color: white;
+    overflow: hidden;
+    position: relative;
     text-align: center;
-    transition: width 1s;
-    -moz-transition: width 1s;
-    -webkit-transition: width 1s;
-    &:hover {
-        width: 100%;
-    }
+    width: 100%;
+    -webkit-transition: max-width 1s linear !important;
+    transition: max-width 1s linear !important;
     &:active {
         @include smallBgGradients(45deg, 10%);
     }
