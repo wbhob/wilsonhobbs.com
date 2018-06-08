@@ -1,0 +1,44 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+body {
+    font-family: 'Roboto', auto;
+}
+
+h1.header {
+    border: 3px solid #ddd;
+    margin: 0 auto; // border-radius: 999999px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+h4,
+h5 {
+    text-transform: uppercase;
+}
+
+h4 {
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-bottom: 3px;
+    font-family: 'Roboto Condensed', auto;
+    border-bottom: 3px solid #ddd;
+}
+
+ul {
+    -webkit-padding-start: 0;
+    list-style-type: none;
+    li:before {
+        content: '-';
+        padding-right: 7px;
+    }
+}
+
+.section {
+    margin-top: 30px;
+}
+.experience {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    p, h5 {
+        margin-bottom: 3px;
+    }
+}
