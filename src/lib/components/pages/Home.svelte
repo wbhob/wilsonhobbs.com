@@ -1,8 +1,8 @@
 <script lang="ts">
 </script>
 
-<main class="prose">
-	<div class=" container p-4">
+<main class="prose container mx-auto my-16">
+	<div class="px-4">
 		<h1>wilson hobbs</h1>
 		<p>
 			hi, i'm wilson. i'm a software engineer and designer. i'm working on ai, platform, and design
@@ -11,7 +11,7 @@
 		</p>
 	</div>
 
-	<div class="container p-4">
+	<div class="px-4">
 		<div class="flex items-baseline justify-between">
 			<h2>
 				<a href="https://www.rivet.tax" target="_new">Rivet</a>
@@ -27,7 +27,7 @@
 		</p>
 	</div>
 
-	<div class="container p-4">
+	<div class="px-4">
 		<div class="flex items-baseline justify-between">
 			<h2>
 				<a href="https://www.lobby.so" target="_new">Lobby</a>
@@ -43,7 +43,7 @@
 		</p>
 	</div>
 
-	<div class="container p-4">
+	<div class="px-4">
 		<h2>My Work</h2>
 
 		<p>Before Lobby, I've worked with a handful of startups and funds on creative projects.</p>
@@ -71,7 +71,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="container p-4">
+	<div class="px-4">
 		<h2>Investments</h2>
 
 		<p>I angel invest small checks in my friends' companies. Check them out!</p>
@@ -98,7 +98,7 @@
 		</ul>
 	</div>
 
-	<div class="container p-4">
+	<div class="px-4">
 		<h2>Contact</h2>
 		<p>Wilson Hobbs lives in San Francisco, CA.</p>
 		<p>
