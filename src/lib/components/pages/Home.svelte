@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<main class="prose dark:prose-invert">
+<main class="prose">
 	<div>
 		<h1>wilson hobbs</h1>
 		<p>

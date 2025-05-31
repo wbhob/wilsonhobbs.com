@@ -27,7 +27,7 @@
 </svelte:head>
 
 <Layout>
-	<article class="prose dark:prose-invert">
+	<article class="prose">
 		<p class="text-sm opacity-60">{data.metadata.formattedDate}</p>
 		<h1>{data.metadata.title}</h1>
 		<div>
