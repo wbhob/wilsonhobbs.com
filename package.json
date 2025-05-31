@@ -41,5 +41,10 @@
 		"onlyBuiltDependencies": [
 			"esbuild"
 		]
+	},
+	"dependencies": {
+		"@ethercorps/svelte-h2j": "^4.0.0",
+		"@resvg/resvg-js": "^2.6.2",
+		"satori": "^0.13.1"
 	}
 }

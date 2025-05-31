@@ -1,7 +1,7 @@
 ---
 title: 'Falsehoods Vibe Coders Believe About LLMs'
 date: 2025-05-31
-description: 'Not everyone can be a great coder, but a great coder can come from anywhere. After 13 years of software development, here are some of the dangerous assumptions I have seen newcomers make about coding with LLMs.'
+description: 'Not everyone can be a great coder, but a great coder can come from anywhere. Here are some of the dangerous assumptions I have seen newcomers make about coding, LLMs, and coding with LLMs.'
 published: true
 ---
 

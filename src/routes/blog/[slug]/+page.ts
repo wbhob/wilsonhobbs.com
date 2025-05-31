@@ -31,6 +31,7 @@ export const load: PageLoad = async ({ params }) => {
 
 	return {
 		component: post.default,
+		slug: params.slug,
 		metadata: {
 			...post.metadata,
 			formattedDate: new Date(post.metadata.date).toLocaleDateString('en-US', {
