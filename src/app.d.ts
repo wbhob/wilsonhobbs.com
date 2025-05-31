@@ -7,6 +7,24 @@ declare global {
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}
+
+		interface MdsvexFile {
+			default: import('svelte/internal').SvelteComponent;
+			metadata: PostMetadata;
+		}
+
+		type MdsvexResolver = () => Promise<MdsvexFile>;
+
+		// Define the interface for markdown post metadata
+		interface PostMetadata {
+			title: string;
+			date: Date;
+			description?: string;
+			published?: boolean;
+
+			// Add other metadata fields you use
+			formattedDate: string;
+		}
 	}
 }
 

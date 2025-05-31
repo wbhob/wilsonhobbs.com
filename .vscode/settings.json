@@ -1,0 +1,6 @@
+{
+    // tread .svx as markdown
+    "files.associations": {
+        "*.svx": "markdown"
+    }
+}
