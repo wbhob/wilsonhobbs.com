@@ -24,6 +24,20 @@
 	<meta property="og:url" content={`https://wilsonhobbs.com/blog/${data.slug}`} />
 	<meta property="og:site_name" content="Wilson Hobbs" />
 	<meta property="og:locale" content="en_US" />
+	<!-- twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={data.metadata.title ?? ''} />
+	<meta name="twitter:description" content={data.metadata.description ?? ''} />
+	<meta
+		name="twitter:image"
+		content={useOgImage({
+			title: data.metadata.title ?? '',
+			description: data.metadata.description ?? ''
+		})}
+	/>
+	<meta name="twitter:site" content="@wilsonsaccount" />
+	<meta name="twitter:creator" content="@wilsonsaccount" />
+	<meta name="twitter:url" content={`https://wilsonhobbs.com/blog/${data.slug}`} />
 </svelte:head>
 
 <Layout>
