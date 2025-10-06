@@ -7,7 +7,7 @@
 		<p>
 			hi, i'm wilson. i'm a software engineer and designer. i'm working on ai, platform, and design
 			at
-			<a href="https://www.rivet.tax">rivet</a> (acq'd my last co, lobby).
+			<a href="https://www.rivet.tax">rivet</a>.
 		</p>
 	</div>
 
