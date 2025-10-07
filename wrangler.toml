@@ -1,0 +1,5 @@
+name = "wilsonhobbs-com"
+compatibility_date = "2025-10-06"
+
+[assets]
+directory = ".svelte-kit/cloudflare"
