@@ -31,7 +31,7 @@ published: true
 
 <cite>— the Buddha</cite>
 
-In the era of large language models, any conversation you want is at your fingertips. Predictable discussion on any topic is seconds away. No need to remember anything or form opinions of your own — a model has all that trained into its tensors.
+In the era of large language models, any conversation you want is at your fingertips. Predictable discussion on any topic is seconds away. No need to remember anything or form opinions of your own—a model has all that trained into its tensors.
 
 This innovation comes at a crucial time when we are more divided than ever. It comes as a continuation of the divisiveness created by algorithmic feeds that serve up curated content ad infinitum, shaping your opinions, actions, and thoughts through subversive means. It is a time where people are defined by their labels and beliefs rather than their actions. Whereas historically, people would be in the same physical location and hold differing beliefs, we can now be in different locations and hold the same beliefs. Anthropologically speaking, this is an unprecedented evolution of the mass communication technology first invented with the Gutenberg printing press.
 
