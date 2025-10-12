@@ -17,7 +17,8 @@ export const load = async () => {
 			formattedDate: new Date(mod.metadata.date).toLocaleDateString('en-US', {
 				year: 'numeric',
 				month: 'long',
-				day: 'numeric'
+				day: 'numeric',
+				timeZone: 'UTC'
 			})
 		}))
 		.filter((post) => post.published);

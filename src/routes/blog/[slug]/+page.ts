@@ -37,7 +37,8 @@ export const load: PageLoad = async ({ params }) => {
 			formattedDate: new Date(post.metadata.date).toLocaleDateString('en-US', {
 				year: 'numeric',
 				month: 'long',
-				day: 'numeric'
+				day: 'numeric',
+				timeZone: 'UTC'
 			})
 		} satisfies App.PostMetadata
 	};

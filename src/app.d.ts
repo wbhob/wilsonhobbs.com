@@ -18,7 +18,7 @@ declare global {
 		// Define the interface for markdown post metadata
 		interface PostMetadata {
 			title: string;
-			date: Date;
+			date: string;
 			description?: string;
 			published?: boolean;
 
