@@ -9,7 +9,7 @@
 </svelte:head>
 
 <Layout>
-	<ul class="space-y-4">
+	<ul class="flex flex-col gap-12">
 		{#each data.posts as p}
 			<li>
 				<a href={`/blog/${p.slug}`}>
