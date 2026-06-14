@@ -5,9 +5,7 @@
 	<div>
 		<h1>wilson hobbs</h1>
 		<p>
-			hi, i'm wilson. i'm a software engineer and designer. i'm working on ai, platform, and design
-			at
-			<a href="https://www.rivet.tax">rivet</a>.
+			hi, i'm wilson. i'm the head of engineering at <a href="https://www.rivet.tax">rivet</a>.
 		</p>
 	</div>
 
@@ -22,8 +20,8 @@
 		<p>
 			Rivet is a tech-enabled tax firm that serves some of Silicon Valley's fastest-growing
 			companies and investors. Rivet runs on a proprietary platform that makes the client experience
-			seamless and preparer experience efficient. In 2024, Rivet acquired Lobby and I joined as
-			founding engineer.
+			seamless and preparer experience efficient. I've overseen the development of our client
+			products, practice management tools, and AI automation systems.
 		</p>
 	</div>
 
@@ -74,7 +72,7 @@
 	<div>
 		<h2>Investments</h2>
 
-		<p>I angel invest small checks in my friends' companies. Check them out!</p>
+		<p>I angel invest small checks in my friends' companies.</p>
 
 		<ul>
 			<li>
