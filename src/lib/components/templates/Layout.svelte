@@ -4,10 +4,10 @@
 	let { children } = $props();
 </script>
 
-<div class="mx-auto mt-8 max-w-screen-md px-8">
+<div class="mx-auto mt-8 max-w-3xl px-8">
 	<HeaderNavigation />
 </div>
 
-<main class="mx-auto my-16 max-w-screen-md px-8">
+<main class="mx-auto my-16 max-w-3xl px-8">
 	{@render children()}
 </main>
