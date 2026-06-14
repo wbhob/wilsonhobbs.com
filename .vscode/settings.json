@@ -1,7 +1,7 @@
 {
-    // tread .svx as markdown
-    "files.associations": {
-        "*.svx": "markdown"
-    },
-    "typescript.experimental.useTsgo": true
+	// tread .svx as markdown
+	"files.associations": {
+		"*.svx": "markdown"
+	},
+	"typescript.experimental.useTsgo": true
 }

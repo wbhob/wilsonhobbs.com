@@ -84,8 +84,8 @@
 				<a target="_new" href="https://hallparty.app">Hallparty</a> – Smart cards for college campuses
 			</li>
 			<li>
-				<a target="_new" href="https://www.arterial.design">Arterial</a> – Simulation for the future
-				of cities
+				<a target="_new" href="https://www.arterial.design">Arterial</a> – Simulation for the future of
+				cities
 			</li>
 			<li>
 				<a target="_new" href="https://withpipeline.com">Pipeline</a> – AI Linkedin outreach for startups
