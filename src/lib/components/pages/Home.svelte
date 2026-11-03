@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <main class="prose">
 	<div>
 		<h1>wilson hobbs</h1>
@@ -97,11 +94,6 @@
 	<div>
 		<h2>Contact</h2>
 		<p>Wilson Hobbs lives in Brooklyn, New York.</p>
-		<p>
-			<a href="mailto:wilson@wilsonhobbs.com">wilson@wilsonhobbs.com</a> |
-			<a href="https://x.com/wilsonsaccount">x</a> |
-			<a href="https://github.com/wbhob">github</a> |
-			<a href="https://www.linkedin.com/in/wbhob/">linkedin</a>
-		</p>
+		<p><a href="mailto:wilson@wilsonhobbs.com">wilson@wilsonhobbs.com</a></p>
 	</div>
 </main>

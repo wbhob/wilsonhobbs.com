@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<title>Home — Wilson Hobbs</title>
-	<meta name="description" content="Wilson Hobbs is head of engineering at Rivet, a tech-enabled tax firm. Previously co-founded Lobby, an AI workspace acquired by Rivet. Based in San Francisco." />
+	<meta name="description" content="Wilson Hobbs builds small, local language models. Previously head of engineering at Rivet and co-founder of Lobby, an AI workspace acquired by Rivet. Based in Brooklyn, New York." />
 </svelte:head>
 
 <Layout>
