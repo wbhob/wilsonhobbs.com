@@ -5,7 +5,8 @@
 	<div>
 		<h1>wilson hobbs</h1>
 		<p>
-			hi, i'm wilson. i'm the head of engineering at <a href="https://www.rivet.tax">rivet</a>.
+			hi, i'm wilson. i build small, local language models: narrow models trained for one task that run
+			on hardware you already own, with data that never leaves the building.
 		</p>
 	</div>
 
@@ -14,13 +15,13 @@
 			<h2>
 				<a href="https://www.rivet.tax" target="_new">Rivet</a>
 			</h2>
-			<p class="text-sm text-gray-500">2024 –</p>
+			<p class="text-sm text-gray-500">2024 – 2026</p>
 		</div>
 
 		<p>
 			Rivet is a tech-enabled tax firm that serves some of Silicon Valley's fastest-growing
 			companies and investors. Rivet runs on a proprietary platform that makes the client experience
-			seamless and preparer experience efficient. I've overseen the development of our client
+			seamless and preparer experience efficient. As head of engineering, I oversaw the development of our client
 			products, practice management tools, and AI automation systems.
 		</p>
 	</div>
@@ -79,9 +80,6 @@
 				<a target="_new" href="https://guild.xyz">Guild</a> – Access control protocol for Web 3
 			</li>
 			<li>
-				<a target="_new" href="https://hallparty.app">Hallparty</a> – Smart cards for college campuses
-			</li>
-			<li>
 				<a target="_new" href="https://www.arterial.design">Arterial</a> – Simulation for the future of
 				cities
 			</li>
@@ -98,7 +96,7 @@
 
 	<div>
 		<h2>Contact</h2>
-		<p>Wilson Hobbs lives in San Francisco, CA.</p>
+		<p>Wilson Hobbs lives in Brooklyn, New York.</p>
 		<p>
 			<a href="mailto:wilson@wilsonhobbs.com">wilson@wilsonhobbs.com</a> |
 			<a href="https://x.com/wilsonsaccount">x</a> |
