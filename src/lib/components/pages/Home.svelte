@@ -1,10 +1,60 @@
+<script lang="ts">
+	const work = [
+		{
+			title: 'Jazz Report',
+			caption: 'Every jazz show in NYC, updated daily',
+			href: 'https://jazz.report',
+			img: '/work/jazz.webp'
+		},
+		{
+			title: 'Play Filler!',
+			caption: 'Multiplayer color territory game',
+			href: 'https://filler.wilsonhobbs.com',
+			img: '/work/filler.webp'
+		},
+		{
+			title: 'Brutalist Ventures',
+			caption: 'Website design, 2021',
+			href: 'https://brutalist.vc',
+			img: '/work/brutalist.webp'
+		},
+		{
+			title: 'Lolli',
+			caption: 'Animated promo video, 2020 (as seen on CNN)',
+			href: 'https://www.youtube.com/watch?v=vbfSHygQ4uE',
+			img: '/work/lolli.webp'
+		},
+		{
+			title: 'Zoomer Company',
+			caption: 'Logo reveal video, 2020',
+			href: 'https://www.youtube.com/watch?v=bE9aU0BRJiM',
+			img: '/work/zoomer.webp'
+		}
+	];
+</script>
+
 <main class="prose">
 	<div>
 		<h1>wilson hobbs</h1>
 		<p>
-			hi, i'm wilson. i build small, local language models: narrow models trained for one task that run
-			on hardware you already own, with data that never leaves the building.
+			hi, i'm wilson. i build small, local language models: narrow models trained for one task that
+			run on hardware you already own, with data that never leaves the building.
 		</p>
+	</div>
+
+	<div class="not-prose grid gap-6 sm:grid-cols-2">
+		{#each work as { title, caption, href, img }}
+			<a {href} target="_new" class="group block">
+				<img
+					src={img}
+					alt={title}
+					loading="lazy"
+					class="aspect-video w-full rounded-lg border border-gray-200 object-cover object-top transition group-hover:opacity-80"
+				/>
+				<p class="mt-2 font-bold group-hover:underline">{title}</p>
+				<p class="text-sm text-gray-500">{caption}</p>
+			</a>
+		{/each}
 	</div>
 
 	<div>
@@ -18,8 +68,8 @@
 		<p>
 			Rivet is a tech-enabled tax firm that serves some of Silicon Valley's fastest-growing
 			companies and investors. Rivet runs on a proprietary platform that makes the client experience
-			seamless and preparer experience efficient. As head of engineering, I oversaw the development of our client
-			products, practice management tools, and AI automation systems.
+			seamless and preparer experience efficient. As head of engineering, I oversaw the development
+			of our client products, practice management tools, and AI automation systems.
 		</p>
 	</div>
 
@@ -39,34 +89,6 @@
 		</p>
 	</div>
 
-	<div>
-		<h2>My Work</h2>
-
-		<p>Before Lobby, I've worked with a handful of startups and funds on creative projects.</p>
-
-		<ul>
-			<li>
-				<a target="_new" href="https://brutalist.vc">Brutalist Ventures</a>, 2021 – Website design
-				<a target="_new" href="https://brutalist.vc">view site</a>
-			</li>
-			<li>
-				<a target="_new" href="https://lolli.com">Lolli</a>, 2020 – Animated Promo Video
-				<a href="https://www.youtube.com/watch?v=vbfSHygQ4uE" target="_new">watch now</a>
-				(has appeared on
-				<a
-					href="https://www.cnn.com/videos/business/2021/04/27/lolli-bitcoin-rewards-crypto.cnnbusiness"
-					target="_new"
-				>
-					CNN
-				</a>)
-			</li>
-
-			<li>
-				Zoomer Company, 2020 – Logo reveal video
-				<a href="https://www.youtube.com/watch?v=bE9aU0BRJiM" target="_new"> watch now </a>
-			</li>
-		</ul>
-	</div>
 	<div>
 		<h2>Investments</h2>
 
@@ -96,8 +118,4 @@
 		<p>Wilson Hobbs lives in Brooklyn, New York.</p>
 		<p><a href="mailto:wilson@wilsonhobbs.com">wilson@wilsonhobbs.com</a></p>
 	</div>
-
-	<p class="text-sm text-gray-500">
-		<a target="_new" href="https://filler.wilsonhobbs.com">Play Filler!</a>
-	</p>
 </main>

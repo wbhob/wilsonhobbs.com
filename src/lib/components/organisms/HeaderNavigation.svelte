@@ -14,10 +14,16 @@
 	<a class="hover:underline" href="/">home</a>
 	<a class="hover:underline" href="/blog">blog</a>
 	<a class="hover:underline" href="/links">links</a>
-	<a class="hover:underline" href="https://jazz.report" target="_blank" rel="noopener" title="Daily jazz shows">jazz</a>
 	<div class="ml-auto flex gap-3">
 		{#each socials as { href, label, icon: Icon }}
-			<a {href} target="_blank" rel="noopener" aria-label={label} title={label} class="text-gray-500 hover:text-gray-900">
+			<a
+				{href}
+				target="_blank"
+				rel="noopener"
+				aria-label={label}
+				title={label}
+				class="text-gray-500 hover:text-gray-900"
+			>
 				<Icon size={20} />
 			</a>
 		{/each}
