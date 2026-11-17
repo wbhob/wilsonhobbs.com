@@ -96,4 +96,8 @@
 		<p>Wilson Hobbs lives in Brooklyn, New York.</p>
 		<p><a href="mailto:wilson@wilsonhobbs.com">wilson@wilsonhobbs.com</a></p>
 	</div>
+
+	<p class="text-sm text-gray-500">
+		<a target="_new" href="https://filler.wilsonhobbs.com">Play Filler!</a>
+	</p>
 </main>
